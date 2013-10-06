@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A9A008A3EE1138F15071EAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A06BBAE9EE6BB40E461C8 /* CoreGraphics.framework */; };
+		1A9A01769C9248AB2F14A293 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A0C638AC38A40AEA1D811 /* UIKit.framework */; };
+		1A9A01A08904C24A478523D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A0175C67E2F5091739E0A /* Foundation.framework */; };
+		1A9A0397B7D6010928570402 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A03230E2ED92409FD43D9 /* Images.xcassets */; };
+		1A9A03D4575475F363EF018B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A06C1ACA0B14D212C8965 /* Main.storyboard */; };
+		1A9A03D9C012C31A64A637B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A0C638AC38A40AEA1D811 /* UIKit.framework */; };
+		1A9A042E45994763D1B0A4F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A0FFCE20F3DEEED4B7E73 /* InfoPlist.strings */; };
+		1A9A04828C8C18942AE2C828 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A0E2E7C398256D0066378 /* InfoPlist.strings */; };
+		1A9A049D1A2F19353E157A08 /* RDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A0139E1C0B1D310C419B6 /* RDViewController.m */; };
+		1A9A0521CCAECE77926A314A /* RubyDavidsonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A09DEA18006442455E147 /* RubyDavidsonTests.m */; };
+		1A9A09F559B880728585B68E /* RDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A040C9CDB4CFD9C494E98 /* RDAppDelegate.m */; };
+		1A9A0A06FD12FB85DD5FE4D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A0175C67E2F5091739E0A /* Foundation.framework */; };
+		1A9A0B8A4222405AA9B0A324 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A03D4689DE1A77EC9C629 /* main.m */; };
+		1A9A0C5369B0EFC872E9E61C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A0D3CC6DDDBEF5E110FF9 /* XCTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A9A04C81D4E3866E0F1532D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A9A0F737AB4CB3E27299A23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A9A0FA0ED7E9543F822A392;
+			remoteInfo = RubyDavidson;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A9A0139E1C0B1D310C419B6 /* RDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDViewController.m; sourceTree = "<group>"; };
+		1A9A0175C67E2F5091739E0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A9A02ADA278B4D8E24884AE /* RDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDAppDelegate.h; sourceTree = "<group>"; };
+		1A9A03230E2ED92409FD43D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
+		1A9A03D4689DE1A77EC9C629 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A9A04040DBC515EDC0212CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A9A040C9CDB4CFD9C494E98 /* RDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDAppDelegate.m; sourceTree = "<group>"; };
+		1A9A04475F3A7BF8FA71F1EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A9A04B86BB6FBDC6A6646AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A9A06184CB2E51BCC733497 /* RubyDavidson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RubyDavidson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9A06BBAE9EE6BB40E461C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A9A0731550E37DA405EA89F /* RDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDViewController.h; sourceTree = "<group>"; };
+		1A9A07A49A11544323F6D61D /* RubyDavidson-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RubyDavidson-Prefix.pch"; sourceTree = "<group>"; };
+		1A9A086B1DB449512DF37D08 /* RubyDavidson-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "RubyDavidson-Info.plist"; sourceTree = "<group>"; };
+		1A9A09DEA18006442455E147 /* RubyDavidsonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubyDavidsonTests.m; sourceTree = "<group>"; };
+		1A9A0A2D75B95D81FD2D6F6C /* RubyDavidsonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "RubyDavidsonTests-Info.plist"; sourceTree = "<group>"; };
+		1A9A0B08B3FA601F2CF1AB00 /* RubyDavidsonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubyDavidsonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9A0C638AC38A40AEA1D811 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A9A0D3CC6DDDBEF5E110FF9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A9A089E6F5F0673DD6FC1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9A0C5369B0EFC872E9E61C /* XCTest.framework in Frameworks */,
+				1A9A0A06FD12FB85DD5FE4D4 /* Foundation.framework in Frameworks */,
+				1A9A03D9C012C31A64A637B3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9A0AF721A9330ABCB6B9B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9A01A08904C24A478523D2 /* Foundation.framework in Frameworks */,
+				1A9A008A3EE1138F15071EAB /* CoreGraphics.framework in Frameworks */,
+				1A9A01769C9248AB2F14A293 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A9A006073111F1D59FE5E19 /* RubyDavidsonTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A9A0493461E4DEB4D2D1B32 /* Supporting Files */,
+				1A9A09DEA18006442455E147 /* RubyDavidsonTests.m */,
+			);
+			path = RubyDavidsonTests;
+			sourceTree = "<group>";
+		};
+		1A9A00B04149F938AE9615E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A9A06184CB2E51BCC733497 /* RubyDavidson.app */,
+				1A9A0B08B3FA601F2CF1AB00 /* RubyDavidsonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A9A0493461E4DEB4D2D1B32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A9A0A2D75B95D81FD2D6F6C /* RubyDavidsonTests-Info.plist */,
+				1A9A0E2E7C398256D0066378 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A9A0510AFF584EF3F9A776A /* RubyDavidson */ = {
+			isa = PBXGroup;
+			children = (
+				1A9A0F46314D99B07C7589CC /* Supporting Files */,
+				1A9A02ADA278B4D8E24884AE /* RDAppDelegate.h */,
+				1A9A040C9CDB4CFD9C494E98 /* RDAppDelegate.m */,
+				1A9A03230E2ED92409FD43D9 /* Images.xcassets */,
+				1A9A06C1ACA0B14D212C8965 /* Main.storyboard */,
+				1A9A0731550E37DA405EA89F /* RDViewController.h */,
+				1A9A0139E1C0B1D310C419B6 /* RDViewController.m */,
+			);
+			path = RubyDavidson;
+			sourceTree = "<group>";
+		};
+		1A9A05ABC32A8CEC39A6284F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A9A0175C67E2F5091739E0A /* Foundation.framework */,
+				1A9A06BBAE9EE6BB40E461C8 /* CoreGraphics.framework */,
+				1A9A0C638AC38A40AEA1D811 /* UIKit.framework */,
+				1A9A0D3CC6DDDBEF5E110FF9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A9A08CFA90F6C00D4D91F33 = {
+			isa = PBXGroup;
+			children = (
+				1A9A00B04149F938AE9615E9 /* Products */,
+				1A9A05ABC32A8CEC39A6284F /* Frameworks */,
+				1A9A0510AFF584EF3F9A776A /* RubyDavidson */,
+				1A9A006073111F1D59FE5E19 /* RubyDavidsonTests */,
+			);
+			sourceTree = "<group>";
+		};
+		1A9A0F46314D99B07C7589CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A9A086B1DB449512DF37D08 /* RubyDavidson-Info.plist */,
+				1A9A0FFCE20F3DEEED4B7E73 /* InfoPlist.strings */,
+				1A9A03D4689DE1A77EC9C629 /* main.m */,
+				1A9A07A49A11544323F6D61D /* RubyDavidson-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A9A0CD6051F40ABE74C4544 /* RubyDavidsonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9A0033651C1F1B457D97D2 /* Build configuration list for PBXNativeTarget "RubyDavidsonTests" */;
+			buildPhases = (
+				1A9A0601E1542E1CA31174D9 /* Sources */,
+				1A9A089E6F5F0673DD6FC1E2 /* Frameworks */,
+				1A9A0B30BDF47B02F6D385B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A9A09335CA652B57AC56489 /* PBXTargetDependency */,
+			);
+			name = RubyDavidsonTests;
+			productName = RubyDavidsonTests;
+			productReference = 1A9A0B08B3FA601F2CF1AB00 /* RubyDavidsonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A9A0FA0ED7E9543F822A392 /* RubyDavidson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9A01DE64760E3949928ACA /* Build configuration list for PBXNativeTarget "RubyDavidson" */;
+			buildPhases = (
+				1A9A0DCC3918F156F60C0B98 /* Sources */,
+				1A9A0AF721A9330ABCB6B9B4 /* Frameworks */,
+				1A9A0528BD4DCC4907C869D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RubyDavidson;
+			productName = RubyDavidson;
+			productReference = 1A9A06184CB2E51BCC733497 /* RubyDavidson.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A9A0F737AB4CB3E27299A23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = AndrewShmig;
+			};
+			buildConfigurationList = 1A9A0559C53A8B2273224FE9 /* Build configuration list for PBXProject "RubyDavidson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A9A08CFA90F6C00D4D91F33;
+			productRefGroup = 1A9A00B04149F938AE9615E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A9A0FA0ED7E9543F822A392 /* RubyDavidson */,
+				1A9A0CD6051F40ABE74C4544 /* RubyDavidsonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A9A0528BD4DCC4907C869D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9A042E45994763D1B0A4F2 /* InfoPlist.strings in Resources */,
+				1A9A0397B7D6010928570402 /* Images.xcassets in Resources */,
+				1A9A03D4575475F363EF018B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9A0B30BDF47B02F6D385B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9A04828C8C18942AE2C828 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A9A0601E1542E1CA31174D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9A0521CCAECE77926A314A /* RubyDavidsonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A9A0DCC3918F156F60C0B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A9A0B8A4222405AA9B0A324 /* main.m in Sources */,
+				1A9A09F559B880728585B68E /* RDAppDelegate.m in Sources */,
+				1A9A049D1A2F19353E157A08 /* RDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A9A09335CA652B57AC56489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A9A0FA0ED7E9543F822A392 /* RubyDavidson */;
+			targetProxy = 1A9A04C81D4E3866E0F1532D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A9A06C1ACA0B14D212C8965 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A9A04475F3A7BF8FA71F1EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A9A0E2E7C398256D0066378 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A9A04B86BB6FBDC6A6646AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A9A0FFCE20F3DEEED4B7E73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A9A04040DBC515EDC0212CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A9A016909CC5271567AEB59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubyDavidson/RubyDavidson-Prefix.pch";
+				INFOPLIST_FILE = "RubyDavidsonTests/RubyDavidsonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1A9A0394FDCDB621B11AD484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubyDavidson/RubyDavidson-Prefix.pch";
+				INFOPLIST_FILE = "RubyDavidsonTests/RubyDavidsonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		1A9A07CDEE82FB01A0A20DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubyDavidson/RubyDavidson-Prefix.pch";
+				INFOPLIST_FILE = "RubyDavidson/RubyDavidson-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A9A087C41ABF8E79C1231BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A9A0A58B11BBB1CE8EE55AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubyDavidson/RubyDavidson-Prefix.pch";
+				INFOPLIST_FILE = "RubyDavidson/RubyDavidson-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1A9A0F365CFE953BF06CFDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A9A0033651C1F1B457D97D2 /* Build configuration list for PBXNativeTarget "RubyDavidsonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9A0394FDCDB621B11AD484 /* Release */,
+				1A9A016909CC5271567AEB59 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A9A01DE64760E3949928ACA /* Build configuration list for PBXNativeTarget "RubyDavidson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9A0A58B11BBB1CE8EE55AC /* Release */,
+				1A9A07CDEE82FB01A0A20DD2 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A9A0559C53A8B2273224FE9 /* Build configuration list for PBXProject "RubyDavidson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9A087C41ABF8E79C1231BE /* Release */,
+				1A9A0F365CFE953BF06CFDBE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A9A0F737AB4CB3E27299A23 /* Project object */;
+}
