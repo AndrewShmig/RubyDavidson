@@ -1,4 +1,4 @@
-RubyRiser1 for CoreData
+RubyDavidson for CoreData
 =======================
 
 [iOS] Ruby like dynamic finders for Core Data
