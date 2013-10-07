@@ -38,6 +38,10 @@ NSArray* mos = [moc RD_findCarsWithFuelVolumeGreaterThan:@10];
 NSArray* mos = [moc RD_findMessagesWithPositiveVotesSmallerThan:@29];
 ````
 
+Patterns:
+````objective-c
+````
+
 **Counting**
 
 Replace "find" with "count".
@@ -49,4 +53,6 @@ NSUInteger users = [moc countBooksPublishedBefore:startDate author:joanneRowling
 etc.
 ````
 
-[iOS] Ruby like dynamic finders for Core Data
+Patterns:
+````objective-c
+````
