@@ -20,8 +20,8 @@ RD_create[entity name]With[attribute name]:[attribute value] [attribute name]:[a
 
 Examples:
 ````objective-c
-NSManagedObject* mo = [moc RD_findUsersWithFirstName:@"Igori"];
-NSArray* mos = [moc RD_findUserWithLastName:@"Guliko" firstName:@"Igori"];
+NSArray* mos = [moc RD_findUsersWithFirstName:@"Igori"];
+NSManagedObject* mo = [moc RD_findUserWithLastName:@"Guliko" firstName:@"Igori"];
 
 NSArray* mos = [moc RD_findBooksPublishedAt:[NSDate date]];
 NSArray* mos = [moc RD_findFriendsLastSeenAt:[NSDate date]];
