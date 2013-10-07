@@ -48,8 +48,8 @@ Replace "find" with "count".
 
 Examples:
 ````objective-c
-NSUInteger teenagers = [moc countUsersWithAgeBetween:@[@16, @19]];
-NSUInteger users = [moc countBooksPublishedBefore:startDate author:joanneRowling readersGreaterThan:@100];
+NSUInteger teenagers = [moc RD_countUsersWithAgeBetween:@[@16, @19]];
+NSUInteger users = [moc RD_countBooksPublishedBefore:startDate author:joanneRowling readersGreaterThan:@100];
 etc.
 ````
 
