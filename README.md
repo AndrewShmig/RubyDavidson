@@ -15,7 +15,9 @@ NSManagedObject* mo = [moc RD_createArticleAboutUser:alizar withName:@"Alizar - 
 
 Pattern:
 ````objective-c
-RD_create[entity name][With|For|About][attribute name]:[[with|and|for|about][attribute value]] ...
+RD_create[entity name][With|For|About][attribute name]:[attribute value] 
+                 [[[with|and|about|for]attribute name]:[attribute value]] 
+				  [[[with|and|about|for]attribute name]:[attribute value]] ...
 ````
 
 **Finding**
