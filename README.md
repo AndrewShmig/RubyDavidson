@@ -17,7 +17,7 @@ Pattern:
 ````objective-c
 RD_create[entity name][With|For|About][attribute name]:[attribute value] 
                  [[[with|and|about|for]attribute name]:[attribute value]] 
-				  [[[with|and|about|for]attribute name]:[attribute value]] ...
+				 [[[with|and|about|for]attribute name]:[attribute value]] ...
 ````
 
 **Finding**
