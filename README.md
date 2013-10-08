@@ -1,7 +1,7 @@
 RubyDavidson for CoreData
 =======================
 
- ## Creating new entities
+ ## Creating new entities ##
 
 Examples:
 ````objective-c
