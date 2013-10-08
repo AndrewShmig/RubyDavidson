@@ -1,7 +1,7 @@
 RubyDavidson for CoreData
 =======================
 
- ## Creating new entities ##
+## Creating new entities
 
 Examples:
 ````objective-c
@@ -13,7 +13,7 @@ NSManagedObject* mo = [moc RD_createTaskForProject:googleTalk priority:@3 member
 NSManagedObject* mo = [moc RD_createArticleAboutUser:alizar withName:@"Alizar - Habrahabr Soul" andTitle:@"Alizar"];
 ````
 
-Pattern:
+#Pattern:
 ````objective-c
 RD_create[entity name][With|For|About][attribute name]:[attribute value] 
                  [[[with|and|about|for]attribute name]:[attribute value]] 
