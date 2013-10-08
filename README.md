@@ -1,5 +1,4 @@
-RubyDavidson for CoreData
-=======================
+<center>RubyDavidson for CoreData</center>
 
 #Creating
 ````objective-c
@@ -37,7 +36,7 @@ NSArray* mos = [moc RD_findCarsWithFuelVolumeGreaterThan:@10];
 NSArray* mos = [moc RD_findMessagesWithPositiveVotesSmallerThan:@29];
 ````
 
-###Patterns
+###Pattern
 ````objective-c
 ````
 
@@ -49,11 +48,11 @@ NSUInteger users = [moc RD_countBooksPublishedBefore:startDate author:joanneRowl
 etc.
 ````
 
-###Patterns
+###Pattern
 ````objective-c
 ````
 
-#License#
+#License
 The MIT License (MIT)
 
 Copyright (c) 2013 Andrew Shmig
