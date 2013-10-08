@@ -14,7 +14,7 @@ NSManagedObject* mo = [moc RD_createTaskForProject:googleTalk priority:@3 member
 
 Pattern:
 ````objective-c
-RD_create[entity name]With[attribute name]:[attribute value] [attribute name]:[attribute value] ...
+RD_create[entity name][With|For|About][attribute name]:[attribute value] [attribute name]:[attribute value] ...
 ````
 
 **Finding**
