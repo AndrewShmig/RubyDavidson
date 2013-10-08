@@ -9,6 +9,7 @@ NSManagedObject* mo = [moc RD_createUserWithName:@"John" age:@29 married:@YES];
 NSManagedObject* mo = [moc RD_createCompanyWithName:@"Yandex, LLC" ceo:me managers:@[firstManager, secondManager]];
 NSManagedObject* mo = [moc RD_createCompanyWithName:@"Google" ceos:@[larryPage, sergeyBrin] manager:jonathanGreen];
 NSManagedObject* mo = [moc RD_createBookWithAuthor:joanneRowling name:@"Harry Potter" publishedAt:[NSDate date]];
+NSManagedObject* mo = [moc RD_createTaskForProject:googleTalk priority:@3 members:nil];
 ````
 
 Pattern:
