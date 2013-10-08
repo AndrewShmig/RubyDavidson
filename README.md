@@ -10,11 +10,12 @@ NSManagedObject* mo = [moc RD_createCompanyWithName:@"Yandex, LLC" ceo:me manage
 NSManagedObject* mo = [moc RD_createCompanyWithName:@"Google" ceos:@[larryPage, sergeyBrin] manager:jonathanGreen];
 NSManagedObject* mo = [moc RD_createBookWithAuthor:joanneRowling name:@"Harry Potter" publishedAt:[NSDate date]];
 NSManagedObject* mo = [moc RD_createTaskForProject:googleTalk priority:@3 members:nil];
+NSManagedObject* mo = [moc RD_createArticleAboutUser:alizar withName:@"Alizar - Habrahabr Soul" andTitle:@"Alizar"];
 ````
 
 Pattern:
 ````objective-c
-RD_create[entity name][With|For|About][attribute name]:[attribute value] [attribute name]:[attribute value] ...
+RD_create[entity name][With|For|About][attribute name]:[[with|and|for|about][attribute value]] ...
 ````
 
 **Finding**
