@@ -1,9 +1,7 @@
 RubyDavidson for CoreData
 =======================
 
-## Creating new entities
-
-Examples:
+#Creating
 ````objective-c
 NSManagedObject* mo = [moc RD_createUserWithName:@"John" age:@29 married:@YES];
 NSManagedObject* mo = [moc RD_createCompanyWithName:@"Yandex, LLC" ceo:me managers:@[firstManager, secondManager]];
@@ -12,17 +10,14 @@ NSManagedObject* mo = [moc RD_createBookWithAuthor:joanneRowling name:@"Harry Po
 NSManagedObject* mo = [moc RD_createTaskForProject:googleTalk priority:@3 members:nil];
 NSManagedObject* mo = [moc RD_createArticleAboutUser:alizar withName:@"Alizar - Habrahabr Soul" andTitle:@"Alizar"];
 ````
-
-#Pattern:
+###Pattern:
 ````objective-c
 RD_create[entity name][With|For|About][attribute name]:[attribute value] 
                  [[[with|and|about|for]attribute name]:[attribute value]] 
 				 [[[with|and|about|for]attribute name]:[attribute value]] ...
 ````
 
-**Finding**
-
-Examples:
+#Finding
 ````objective-c
 NSArray* mos = [moc RD_findUsersWithFirstName:@"Igori"];
 NSManagedObject* mo = [moc RD_findUserWithLastName:@"Guliko" firstName:@"Igori"];
@@ -42,22 +37,19 @@ NSArray* mos = [moc RD_findCarsWithFuelVolumeGreaterThan:@10];
 NSArray* mos = [moc RD_findMessagesWithPositiveVotesSmallerThan:@29];
 ````
 
-Patterns:
+###Patterns
 ````objective-c
 ````
 
-**Counting**
-
+#Counting
 Replace "find" with "count".
-
-Examples:
 ````objective-c
 NSUInteger teenagers = [moc RD_countUsersWithAgeBetween:@[@16, @19]];
 NSUInteger users = [moc RD_countBooksPublishedBefore:startDate author:joanneRowling readersGreaterThan:@100];
 etc.
 ````
 
-Patterns:
+###Patterns
 ````objective-c
 ````
 
