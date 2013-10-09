@@ -1,6 +1,7 @@
 #RubyDavidson for CoreData
 
 #Creating
+
 ````objective-c
 NSManagedObject* mo = [moc RD_createUserWithName:@"John" age:@29 married:@YES];
 NSManagedObject* mo = [moc RD_createCompanyWithName:@"Yandex, LLC" ceo:me managers:@[firstManager, secondManager]];
@@ -10,6 +11,7 @@ NSManagedObject* mo = [moc RD_createTaskForProject:googleTalk priority:@3 member
 NSManagedObject* mo = [moc RD_createArticleAboutUser:alizar withName:@"Alizar - Habrahabr Soul" andTitle:@"Alizar"];
 ````
 ###Pattern:
+
 ````objective-c
 RD_create[entity name][With|For|About][attribute name]:[attribute value] 
                  [[[with|and|about|for]attribute name]:[attribute value]] 
@@ -17,6 +19,7 @@ RD_create[entity name][With|For|About][attribute name]:[attribute value]
 ````
 
 #Finding
+
 ````objective-c
 NSArray* mos = [moc RD_findUsersWithFirstName:@"Igori"];
 NSManagedObject* mo = [moc RD_findUserWithLastName:@"Guliko" firstName:@"Igori"];
