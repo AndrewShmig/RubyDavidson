@@ -13,15 +13,22 @@
 ###Pattern:
 
 ````
-anpl - attribute name (plural form)
-ans - attribute name (singular form)
-ens - entity name (singular form)
+Anpl - attribute name (plural form; first letter - uppercase)
+anpl - attribute name (plural form; first letter - lowercase)
+^anpl - attribute name (plural form; lowercase if no prefix, uppercase otherwise)
+
+Ans - attribute name (singular form; first letter - uppercase)
+ans - attribute name (singular form; first letter - lowercase)
+^ans - attribute name (singular form; lowercase if no prefix, uppercase otherwise)
+
+Ens - entity name (singular form; first letter - uppercase)
+
 av - attribute value
 ````
 
-````objective-c
-RD_create[ens][With|For|About][ans|anpl]:[av] 
-       [[|with|for|about|and][ans|anpl]]:[av] ...
+````
+RD_create[Ens][With|For|About][Ans|Anpl]:[av] 
+     [[|with|for|about|and][^ans|^anpl]]:[av] ...
 ````
 
 #Finding
