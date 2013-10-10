@@ -39,11 +39,13 @@ NSArray* mos = [moc RD_findCarsWithFuelVolumeGreaterThan:@10];
 NSArray* mos = [moc RD_findMessagesWithPositiveVotesSmallerThan:@29];
 ````
 
-###Pattern
+###Pattern:
+
 ````objective-c
 ````
 
 #Counting
+
 Replace "find" with "count".
 ````objective-c
 NSUInteger teenagers = [moc RD_countUsersWithAgeBetween:@[@16, @19]];
@@ -51,7 +53,8 @@ NSUInteger users = [moc RD_countBooksPublishedBefore:startDate author:joanneRowl
 etc.
 ````
 
-###Pattern
+###Pattern:
+
 ````objective-c
 ````
 
