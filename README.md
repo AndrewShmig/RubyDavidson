@@ -12,10 +12,12 @@
 ````
 ###Pattern:
 
+````
 anpl - attribute name (plural form)
 ans - attribute name (singular form)
 ens - entity name (singular form)
 av - attribute value
+````
 
 ````objective-c
 RD_create[ens][With|For|About][ans|anpl]:[av] 
