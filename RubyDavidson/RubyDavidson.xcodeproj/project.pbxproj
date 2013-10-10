@@ -10,6 +10,8 @@
 		1A9A008A3EE1138F15071EAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A06BBAE9EE6BB40E461C8 /* CoreGraphics.framework */; };
 		1A9A01769C9248AB2F14A293 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A0C638AC38A40AEA1D811 /* UIKit.framework */; };
 		1A9A01A08904C24A478523D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A0175C67E2F5091739E0A /* Foundation.framework */; };
+		1A9A01AFEA4DCB4D2C55DA36 /* NSManagedObjectContext+RubyDavidson.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A038319DCD2D003B57EE2 /* NSManagedObjectContext+RubyDavidson.m */; };
+		1A9A0373885F782D2CC49AE8 /* NSManagedObjectContext+RubyDavidson.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A038319DCD2D003B57EE2 /* NSManagedObjectContext+RubyDavidson.m */; };
 		1A9A0397B7D6010928570402 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A03230E2ED92409FD43D9 /* Images.xcassets */; };
 		1A9A03D4575475F363EF018B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A06C1ACA0B14D212C8965 /* Main.storyboard */; };
 		1A9A03D9C012C31A64A637B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A0C638AC38A40AEA1D811 /* UIKit.framework */; };
@@ -17,6 +19,7 @@
 		1A9A04828C8C18942AE2C828 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A0E2E7C398256D0066378 /* InfoPlist.strings */; };
 		1A9A049D1A2F19353E157A08 /* RDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A0139E1C0B1D310C419B6 /* RDViewController.m */; };
 		1A9A0521CCAECE77926A314A /* RubyDavidsonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A09DEA18006442455E147 /* RubyDavidsonTests.m */; };
+		1A9A09C1EB9C2E7AF440DE6C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A0DC8709824C7AF2FAA9F /* CoreData.framework */; };
 		1A9A09F559B880728585B68E /* RDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A040C9CDB4CFD9C494E98 /* RDAppDelegate.m */; };
 		1A9A0A06FD12FB85DD5FE4D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A0175C67E2F5091739E0A /* Foundation.framework */; };
 		1A9A0B8A4222405AA9B0A324 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A03D4689DE1A77EC9C629 /* main.m */; };
@@ -38,6 +41,7 @@
 		1A9A0175C67E2F5091739E0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1A9A02ADA278B4D8E24884AE /* RDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDAppDelegate.h; sourceTree = "<group>"; };
 		1A9A03230E2ED92409FD43D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
+		1A9A038319DCD2D003B57EE2 /* NSManagedObjectContext+RubyDavidson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+RubyDavidson.m"; sourceTree = "<group>"; };
 		1A9A03D4689DE1A77EC9C629 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A9A04040DBC515EDC0212CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A9A040C9CDB4CFD9C494E98 /* RDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDAppDelegate.m; sourceTree = "<group>"; };
@@ -50,9 +54,11 @@
 		1A9A086B1DB449512DF37D08 /* RubyDavidson-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "RubyDavidson-Info.plist"; sourceTree = "<group>"; };
 		1A9A09DEA18006442455E147 /* RubyDavidsonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubyDavidsonTests.m; sourceTree = "<group>"; };
 		1A9A0A2D75B95D81FD2D6F6C /* RubyDavidsonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "RubyDavidsonTests-Info.plist"; sourceTree = "<group>"; };
+		1A9A0AA4BBEE5502A57FF31B /* NSManagedObjectContext+RubyDavidson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+RubyDavidson.h"; sourceTree = "<group>"; };
 		1A9A0B08B3FA601F2CF1AB00 /* RubyDavidsonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubyDavidsonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9A0C638AC38A40AEA1D811 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1A9A0D3CC6DDDBEF5E110FF9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1A9A0DC8709824C7AF2FAA9F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,7 @@
 				1A9A01A08904C24A478523D2 /* Foundation.framework in Frameworks */,
 				1A9A008A3EE1138F15071EAB /* CoreGraphics.framework in Frameworks */,
 				1A9A01769C9248AB2F14A293 /* UIKit.framework in Frameworks */,
+				1A9A09C1EB9C2E7AF440DE6C /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +93,13 @@
 				1A9A09DEA18006442455E147 /* RubyDavidsonTests.m */,
 			);
 			path = RubyDavidsonTests;
+			sourceTree = "<group>";
+		};
+		1A9A00AED6D3315CB57A64E0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		1A9A00B04149F938AE9615E9 /* Products */ = {
@@ -104,6 +118,16 @@
 				1A9A0E2E7C398256D0066378 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A9A04BA350D37E03F6EB567 /* RubyDavidsonSourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				1A9A038319DCD2D003B57EE2 /* NSManagedObjectContext+RubyDavidson.m */,
+				1A9A0AA4BBEE5502A57FF31B /* NSManagedObjectContext+RubyDavidson.h */,
+				1A9A00AED6D3315CB57A64E0 /* Utilities */,
+			);
+			path = RubyDavidsonSourceCode;
 			sourceTree = "<group>";
 		};
 		1A9A0510AFF584EF3F9A776A /* RubyDavidson */ = {
@@ -127,6 +151,7 @@
 				1A9A06BBAE9EE6BB40E461C8 /* CoreGraphics.framework */,
 				1A9A0C638AC38A40AEA1D811 /* UIKit.framework */,
 				1A9A0D3CC6DDDBEF5E110FF9 /* XCTest.framework */,
+				1A9A0DC8709824C7AF2FAA9F /* CoreData.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -138,6 +163,7 @@
 				1A9A05ABC32A8CEC39A6284F /* Frameworks */,
 				1A9A0510AFF584EF3F9A776A /* RubyDavidson */,
 				1A9A006073111F1D59FE5E19 /* RubyDavidsonTests */,
+				1A9A04BA350D37E03F6EB567 /* RubyDavidsonSourceCode */,
 			);
 			sourceTree = "<group>";
 		};
@@ -243,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A9A0521CCAECE77926A314A /* RubyDavidsonTests.m in Sources */,
+				1A9A01AFEA4DCB4D2C55DA36 /* NSManagedObjectContext+RubyDavidson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +280,7 @@
 				1A9A0B8A4222405AA9B0A324 /* main.m in Sources */,
 				1A9A09F559B880728585B68E /* RDAppDelegate.m in Sources */,
 				1A9A049D1A2F19353E157A08 /* RDViewController.m in Sources */,
+				1A9A0373885F782D2CC49AE8 /* NSManagedObjectContext+RubyDavidson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
