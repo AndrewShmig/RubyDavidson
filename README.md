@@ -3,19 +3,23 @@
 #Creating
 
 ````objective-c
-NSManagedObject* mo = [moc RD_createUserWithName:@"John" age:@29 married:@YES];
-NSManagedObject* mo = [moc RD_createCompanyWithName:@"Yandex, LLC" ceo:me managers:@[firstManager, secondManager]];
-NSManagedObject* mo = [moc RD_createCompanyWithName:@"Google" ceos:@[larryPage, sergeyBrin] manager:jonathanGreen];
-NSManagedObject* mo = [moc RD_createBookWithAuthor:joanneRowling name:@"Harry Potter" publishedAt:[NSDate date]];
-NSManagedObject* mo = [moc RD_createTaskForProject:googleTalk priority:@3 members:nil];
-NSManagedObject* mo = [moc RD_createArticleAboutUser:alizar withName:@"Alizar - Habrahabr Soul" andTitle:@"Alizar"];
+[moc RD_createUserWithName:@"John" age:@29 married:@YES];
+[moc RD_createCompanyWithName:@"Yandex, LLC" ceo:me managers:@[firstManager, secondManager]];
+[moc RD_createCompanyWithName:@"Google" ceos:@[larryPage, sergeyBrin] manager:jonathanGreen];
+[moc RD_createBookWithAuthor:joanneRowling name:@"Harry Potter" publishedAt:[NSDate date]];
+[moc RD_createTaskForProject:googleTalk priority:@3 members:nil];
+[moc RD_createArticleAboutUser:alizar withName:@"Alizar - Habrahabr Soul" andTitle:@"Alizar"];
 ````
 ###Pattern:
 
+anpl - attribute name (plural form)
+ans - attribute name (singular form)
+ens - entity name (singular form)
+av - attribute value
+
 ````objective-c
-RD_create[entity name][With|For|About][attribute name]:[attribute value] 
-                 [[[with|and|about|for]attribute name]:[attribute value]] 
-				 [[[with|and|about|for]attribute name]:[attribute value]] ...
+RD_create[ens][With|For|About][ans|anpl]:[av] 
+       [[|with|for|about|and][ans|anpl]]:[av] ...
 ````
 
 #Finding
