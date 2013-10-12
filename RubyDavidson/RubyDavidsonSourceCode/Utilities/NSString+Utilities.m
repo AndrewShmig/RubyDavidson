@@ -1,5 +1,5 @@
 //
-// Created by AndrewShmig on 10/10/13.
+// Created by AndrewShmig on 10/12/13.
 //
 // Copyright (c) 2013 Andrew Shmig
 // 
@@ -24,17 +24,16 @@
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN 
 // THE SOFTWARE.
 //
-#import "NSManagedObjectContext+RubyDavidson.h"
+#import "NSString+Utilities.h"
 
 
-@implementation NSManagedObjectContext (RubyDavidson)
-
-- (void)forwardInvocation:(NSInvocation *)anInvocation
+@implementation NSString (Utilities)
+- (BOOL)startsWith:(NSString *)string
 {
 //    TODO
 }
 
-- (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector
+- (BOOL)endsWith:(NSString *)string
 {
 //    TODO
 }

@@ -9,43 +9,93 @@
 #import "RDAppDelegate.h"
 
 @implementation RDAppDelegate
+{
+    NSManagedObjectModel *_managedObjectModel;
+    NSManagedObjectContext *_managedObjectContext;
+    NSPersistentStoreCoordinator *_coordinator;
+}
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+- (BOOL)          application:(UIApplication *)application
+didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+
+//    Book *book1 = [NSEntityDescription insertNewObjectForEntityForName:@"Book"
+//                                                inManagedObjectContext:[self managedObjectContext]];
+//    
+//    book1.name = @"Hello World!";
+//    book1.pages = @100;
+//    book1.year = @2009;
+
+    NSManagedObjectContext *context = [self managedObjectContext];
+
+    NSLog(@"Before");
+
+    [context RD_helloWorld];
+
+    NSLog(@"After");
+
+//    [context RD_createBookWithName:@"Hello World!" pages:@100 andYear:@2009];
+
+    [[self managedObjectContext] save:nil];
+
     return YES;
 }
-							
-- (void)applicationWillResignActive:(UIApplication *)application
-{
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
 
+#pragma mark - Core Data Stack
+
+- (NSManagedObjectModel *)managedObjectModel
+{
+    if (nil != _managedObjectModel)
+        return _managedObjectModel;
+
+    _managedObjectModel = [NSManagedObjectModel mergedModelFromBundles:nil];
+
+    return _managedObjectModel;
 }
 
-- (void)applicationDidEnterBackground:(UIApplication *)application
+- (NSPersistentStoreCoordinator *)coordinator
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    if (nil != _coordinator)
+        return _coordinator;
 
+    NSURL *storeURL = [[[[NSFileManager defaultManager]
+                                        URLsForDirectory:NSDocumentDirectory
+                                               inDomains:NSUserDomainMask]
+                                        lastObject]
+                                        URLByAppendingPathComponent:@"Model.sqlite"];
+
+    _coordinator = [[[NSPersistentStoreCoordinator alloc]
+                                                   initWithManagedObjectModel:self.managedObjectModel]
+                                                   autorelease];
+
+    NSError *error = nil;
+    if (![_coordinator addPersistentStoreWithType:NSSQLiteStoreType
+                                    configuration:nil
+                                              URL:storeURL
+                                          options:nil
+                                            error:&error]) {
+        NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
+        abort();
+    }
+
+    return _coordinator;
 }
 
-- (void)applicationWillEnterForeground:(UIApplication *)application
+- (NSManagedObjectContext *)managedObjectContext
 {
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    if (nil != _managedObjectContext)
+        return _managedObjectContext;
 
-}
+    NSPersistentStoreCoordinator *storeCoordinator = self.coordinator;
 
-- (void)applicationDidBecomeActive:(UIApplication *)application
-{
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    if (nil != storeCoordinator) {
+        _managedObjectContext = [[[NSManagedObjectContext alloc] init]
+                                                          autorelease];
+        [_managedObjectContext setPersistentStoreCoordinator:storeCoordinator];
+    }
 
-}
-
-- (void)applicationWillTerminate:(UIApplication *)application
-{
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-
+    return _managedObjectContext;
 }
 
 @end

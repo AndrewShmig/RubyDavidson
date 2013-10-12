@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1111C709-67EE-47A6-AE8C-AC3B1A7CEA88</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RubyDavidson</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>35A7C413-04DE-4355-B408-6618803E4582</key>
+		<string>https://github.com/AndrewShmig/RubyDavidson.git</string>
+		<key>578FAF8D-0984-4946-9AA0-EA367F75D972</key>
+		<string>https://github.com/magicalpanda/MagicalRecord.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RubyDavidson/RubyDavidson.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>35A7C413-04DE-4355-B408-6618803E4582</key>
+		<string>../../..</string>
+		<key>578FAF8D-0984-4946-9AA0-EA367F75D972</key>
+		<string>../../../../MagicalRecord</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AndrewShmig/RubyDavidson.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>35A7C413-04DE-4355-B408-6618803E4582</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>578FAF8D-0984-4946-9AA0-EA367F75D972</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MagicalRecord</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>35A7C413-04DE-4355-B408-6618803E4582</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RubyDavidson</string>
+		</dict>
+	</array>
+</dict>
+</plist>
