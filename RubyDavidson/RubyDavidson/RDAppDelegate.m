@@ -65,9 +65,8 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
                                         lastObject]
                                         URLByAppendingPathComponent:@"Model.sqlite"];
 
-    _coordinator = [[[NSPersistentStoreCoordinator alloc]
-                                                   initWithManagedObjectModel:self.managedObjectModel]
-                                                   autorelease];
+    _coordinator = [[NSPersistentStoreCoordinator alloc]
+                                                   initWithManagedObjectModel:self.managedObjectModel];
 
     NSError *error = nil;
     if (![_coordinator addPersistentStoreWithType:NSSQLiteStoreType
@@ -90,8 +89,7 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
     NSPersistentStoreCoordinator *storeCoordinator = self.coordinator;
 
     if (nil != storeCoordinator) {
-        _managedObjectContext = [[[NSManagedObjectContext alloc] init]
-                                                          autorelease];
+        _managedObjectContext = [[NSManagedObjectContext alloc] init];
         [_managedObjectContext setPersistentStoreCoordinator:storeCoordinator];
     }
 

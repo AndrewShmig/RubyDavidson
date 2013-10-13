@@ -11,7 +11,7 @@
 		1A9A01769C9248AB2F14A293 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A0C638AC38A40AEA1D811 /* UIKit.framework */; };
 		1A9A01A08904C24A478523D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A0175C67E2F5091739E0A /* Foundation.framework */; };
 		1A9A01AFEA4DCB4D2C55DA36 /* NSManagedObjectContext+RubyDavidson.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A038319DCD2D003B57EE2 /* NSManagedObjectContext+RubyDavidson.m */; };
-		1A9A0373885F782D2CC49AE8 /* NSManagedObjectContext+RubyDavidson.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A038319DCD2D003B57EE2 /* NSManagedObjectContext+RubyDavidson.m */; };
+		1A9A0373885F782D2CC49AE8 /* NSManagedObjectContext+RubyDavidson.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A038319DCD2D003B57EE2 /* NSManagedObjectContext+RubyDavidson.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1A9A0397B7D6010928570402 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A03230E2ED92409FD43D9 /* Images.xcassets */; };
 		1A9A03D4575475F363EF018B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A06C1ACA0B14D212C8965 /* Main.storyboard */; };
 		1A9A03D9C012C31A64A637B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9A0C638AC38A40AEA1D811 /* UIKit.framework */; };
@@ -412,7 +412,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -458,7 +458,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;

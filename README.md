@@ -1,3 +1,5 @@
+(проект умер)
+
 #RubyDavidson for CoreData
 
 #Creating
