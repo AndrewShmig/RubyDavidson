@@ -1,4 +1,4 @@
-(проект умер)
+(Project is not supported: http://stackoverflow.com/questions/19342453/how-to-write-really-dynamic-methods-in-objective-c )
 
 #RubyDavidson for CoreData
 
